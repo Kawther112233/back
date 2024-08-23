@@ -2,7 +2,7 @@
   "name": "kawther",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "front": "cd ../front && npm start",
@@ -14,6 +14,7 @@
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
     "bcrypt": "^4.0.1",
+    "build": "^0.1.4",
     "concurrently": "^8.2.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.3",
