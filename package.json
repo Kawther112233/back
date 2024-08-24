@@ -2,14 +2,14 @@
   "name": "kawther",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "front": "cd ../front && npm start",
     "back": "nodemon server.js",
     "dev": "concurrently \"npm run front\" \"npm run back\"",
-    "build" : "netlify deploy --prod"
-  },
+    "start": "node server.js"
+    },
   "author": "",
   "license": "ISC",
   "dependencies": {
